@@ -1,4 +1,7 @@
-import { Card, type CardProps } from '@kurocado-studio/ui/react';
+import {
+  Card,
+  type CardProps,
+} from '@kurocado-studio/theming-framework-ui/react';
 import type { Meta, StoryObj } from '@storybook/react';
 import React from 'react';
 
@@ -52,14 +55,14 @@ export const WithCardHeader: StoryObj<CardProps> = {
   name: 'With Card Header',
   args: {
     children: (
-      <Card>
+      <>
         <Card.Header>
           <h1 className='text-3xl'>Card Header</h1>
         </Card.Header>
         <Card.Body>
           <p className='text-base'>Card Body</p>
         </Card.Body>
-      </Card>
+      </>
     ),
   },
   tags: ['autodocs'],
@@ -69,7 +72,7 @@ export const WithCardFooter: StoryObj<CardProps> = {
   name: 'With Card Footer',
   args: {
     children: (
-      <Card>
+      <>
         <Card.Header>
           <h1 className='text-3xl'>Card Header</h1>
         </Card.Header>
@@ -79,7 +82,7 @@ export const WithCardFooter: StoryObj<CardProps> = {
         <Card.Footer>
           <p className='text-base'>Card Footer</p>
         </Card.Footer>
-      </Card>
+      </>
     ),
   },
   tags: ['autodocs'],

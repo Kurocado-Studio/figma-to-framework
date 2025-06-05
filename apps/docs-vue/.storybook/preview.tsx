@@ -1,7 +1,7 @@
 /* eslint unicorn/filename-case: 0 */
 /* eslint import/no-default-export: 0 */
-import '@kurocado-studio/ui/typography.css';
-import { ThemeProvider } from '@kurocado-studio/ui/vue';
+import '@kurocado-studio/theming-framework-ui/typography.css';
+import { ThemeProvider } from '@kurocado-studio/theming-framework-ui/vue';
 import { themes } from '@storybook/theming';
 import type { Preview } from '@storybook/vue3';
 import { get } from 'lodash-es';

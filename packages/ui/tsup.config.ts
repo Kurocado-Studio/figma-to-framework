@@ -9,7 +9,6 @@ export default defineConfig({
     'src/index.ts',
     'src/react/exports.ts',
     'src/vue/exports.ts',
-    'src/stories/index.ts',
   ],
   format: ['esm'],
   dts: false,

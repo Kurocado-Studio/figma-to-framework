@@ -1,5 +1,3 @@
-import { type CommonHTMLElementProps } from '../common';
-
 export interface CardComponentToken {
   bg: string;
   fg: string;
@@ -8,8 +6,3 @@ export interface CardComponentToken {
   border: string;
   padding: string;
 }
-
-export type CardComponentProps<
-  T extends HTMLElement = HTMLDivElement,
-  K extends keyof HTMLElementTagNameMap = 'div',
-> = CommonHTMLElementProps<T, K>;

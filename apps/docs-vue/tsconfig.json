@@ -23,6 +23,5 @@
     ".storybook/main.ts",
     "vitest.workspace.ts",
     "src/**/*.vue"
-  ],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  ]
 }

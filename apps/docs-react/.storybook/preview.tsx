@@ -1,7 +1,7 @@
 /* eslint unicorn/filename-case: 0 */
 /* eslint import/no-default-export: 0 */
-import { ThemeProvider } from '@kurocado-studio/ui/react';
-import '@kurocado-studio/ui/typography.css';
+import { ThemeProvider } from '@kurocado-studio/theming-framework-ui/react';
+import '@kurocado-studio/theming-framework-ui/typography.css';
 import { themes } from '@storybook/theming';
 import { get } from 'lodash-es';
 import React, { type FC, useEffect } from 'react';

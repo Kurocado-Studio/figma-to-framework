@@ -9,7 +9,7 @@ import { computed, useAttrs } from 'vue';
 
 import { cardComponentWrapperClasses } from '../../../lib';
 
-const cardPropsAttributes = useAttrs();
+const cardPropsAttributes = defineProps();
 
 const mergedClass = computed(() => {
   return twMerge(
