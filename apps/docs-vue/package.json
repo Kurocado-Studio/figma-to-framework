@@ -31,7 +31,7 @@
     "@storybook/addon-essentials": "^8.6.13",
     "@storybook/addon-links": "^8.6.12",
     "@storybook/addon-onboarding": "^8.6.12",
-    "@storybook/addon-themes": "^8.6.12",
+    "@storybook/addon-themes": "^9.0.5",
     "@storybook/blocks": "^8.6.12",
     "@storybook/experimental-addon-test": "^8.6.14",
     "@storybook/test": "^8.6.12",
