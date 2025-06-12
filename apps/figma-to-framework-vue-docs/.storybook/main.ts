@@ -12,7 +12,6 @@ const config: StorybookConfig = {
     '@storybook/addon-onboarding',
     '@storybook/addon-interactions',
     '@chromatic-com/storybook',
-    '@storybook/addon-docs-react',
     '@storybook/addon-themes',
     '@storybook/experimental-addon-test',
   ],
