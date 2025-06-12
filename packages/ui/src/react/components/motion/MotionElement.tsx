@@ -14,7 +14,7 @@ export function MotionElement<T extends keyof HTMLElementTagNameMap>({
   Record<string | number | symbol, unknown>): ReactNode {
   const element = as || 'div';
 
-  const Component: FC = motion[element];
+  const Component: FC<MotionElementProps<T>> = motion[element];
 
   return <Component {...props} />;
 }
