@@ -14,8 +14,8 @@
     "setup": "pnpm install"
   },
   "dependencies": {
-    "@kurocado-studio/theming-framework-ui": "workspace:*",
-    "isbot": "^5.1.28",
+    "@kurocado-studio/figma-to-framework-ui": "workspace:*",
+    "isbot": "^4.4.0",
     "lodash-es": "^4.17.21",
     "lucide-react": "^0.292.0",
     "postcss": "^8.5.3",

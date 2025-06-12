@@ -3,7 +3,7 @@ import {
   Card,
   CardBody,
   type CardProps,
-} from '@kurocado-studio/theming-framework-ui/vue';
+} from '@kurocado-studio/figma-to-framework-ui/vue';
 import { fn } from '@storybook/test';
 import type { Meta, StoryObj } from '@storybook/vue3';
 
