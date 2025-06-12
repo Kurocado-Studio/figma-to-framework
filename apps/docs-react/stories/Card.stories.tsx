@@ -1,7 +1,7 @@
 import {
   Card,
   type CardProps,
-} from '@kurocado-studio/theming-framework-ui/react';
+} from '@kurocado-studio/figma-to-framework-ui/react';
 import type { Meta, StoryObj } from '@storybook/react';
 import React from 'react';
 
