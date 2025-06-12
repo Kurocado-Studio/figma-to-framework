@@ -1,41 +1,42 @@
-# Kurocado Studio Theming Framework (R&D PoC)
+# Kurocado Studio Figma to Framework Theming Framework (R&D PoC)
 
-|                 |                                                        |
-| --------------- | ------------------------------------------------------ |
-| React Storybook | <https://design-system-kurocado-studio.vercel.app>     |
-| Vue Storybook   | <https://design-system-vue-kurocado-studio.vercel.app> |
+| Platform        | URL     |
+| --------------- | ------- |
+| React Storybook | PENDING |
+| Vue Storybook   | PENDING |
 
-## 🧪 Experimental Scope & Current Focus
+## Demo
 
-This project is an R\&D proof-of-concept (PoC) exploring automated design-to-code workflows. It aims
-to bridge **Figma** with **React** and **Vue** components using a token-based theming framework.
+[![Demo Video](./demo/quick-demo-overview-cover.png)](https://youtu.be/RBpAYT4iMuU)
 
-The core idea: update tokens in Figma → sync with code using **Token Studio** → see pixel-perfect
-updates instantly reflected in Storybook environments. The setup supports Tailwind CSS and is
-monorepo-friendly.
+## Overview
 
-While it may resemble a design system, this project is not one—at least not yet. It is a **component
-theming framework experiment** intended to validate ideas around design token portability,
-multi-framework support, and scalable styling architecture.
+This project is an internal R&D proof-of-concept from **Kurocado Studio**, focused on building a  
+**token-based theming framework** to power cross-framework design system pipelines.
 
-## 🎯 Vision
+It serves as the **technical foundation of the Kurocado Design System**, enabling reusable, themable
+components that sync directly with **Figma** using **Token Studio**. This work will eventually drive
+both the **React** and **Vue** implementations within Figma and Storybook, forming a closed loop
+between design and code.
 
-The project investigates:
+The core workflow explores how tokens created in Figma flow through Token Studio and Tailwind CSS,
+propagating real-time design updates into framework-specific component libraries.
 
-- Cross-framework token theming for React + Vue
-- Low-friction, token-first design system modeling
-- Real-time Figma → Code propagation via Token Studio
-- Portable build pipeline for framework-agnostic UI kits
-- Governance strategies for multi-client SDKs
+## Vision
 
-If successful, this could evolve into a plug-and-play design infrastructure kit for product teams
-looking to maintain consistency across platforms without the overhead of managing a full design
-system.
+- Enable **framework-agnostic theming** through design tokens
+- Support **real-time design → code** updates with Token Studio
+- Create a **scalable build pipeline** for multi-framework UI kits
+- Serve **multi-client design governance** with consistent token layers
+- Lay the groundwork for an **open-source, design-token–driven design system**
 
-## 🛠️ Technical Architecture
+This R&D initiative is designed to validate ideas around theme portability, token modeling, and
+scalable component architecture across React and Vue environments.
 
-A token‑driven pipeline where design tokens from Figma flow through Token Studio and Tailwind CSS to
-power component libraries in React and Vue.
+## Technical Architecture
+
+This project uses a token‑driven pipeline, where design tokens from Figma flow through Token Studio
+and Tailwind CSS to power component libraries in React and Vue.
 
 ```mermaid
 flowchart LR
@@ -58,57 +59,32 @@ flowchart LR
   TokenStudio --> Bundler --> VueSDK
 ```
 
-## ⚡ Demo
+## Prerequisites
 
-[![Demo Video](./demo/quick-demo-overview-cover.png)](https://youtu.be/RBpAYT4iMuU)
-
----
-
-## 🔧 Prerequisites
-
-- **Node.js v20 or higher** [Download Node.js](https://nodejs.org/)
-
-- **PNPM** [PNPM Installation Guide](https://pnpm.io/installation) Install globally:
+- **Node.js v20 or higher** – [Download Node.js](https://nodejs.org/)
+- **PNPM** – [Install PNPM globally](https://pnpm.io/installation):
 
   ```bash
   npm install -g pnpm
   ```
 
----
+## Getting Started
 
-## 🚀 Getting Started
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Kurocado-Studio/design-system.git
-cd design-system
-pnpm install
-pnpm run setup
+git clone https://github.com/Kurocado-Studio/figma-to-framework.git
+cd figma-to-framework
 ```
 
----
+### 2. Install dependencies
 
-## 🛠 Development Scripts
+```bash
+pnpm install
+```
 
-- Run Storybook:
+### 3. Run Storybook locally
 
-  ```bash
-  pnpm run dev
-  ```
-
-- Build packages:
-
-  ```bash
-  pnpm run build
-  ```
-
-- Run tests:
-
-  ```bash
-  pnpm run test
-  ```
-
-- Lint:
-
-  ```bash
-  pnpm run lint
-  ```
+```bash
+pnpm run dev
+```
