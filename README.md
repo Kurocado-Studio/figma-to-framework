@@ -1,9 +1,9 @@
-# Kurocado Studio Figma to Framework Theming Framework (R&D PoC)
+# Kurocado Studio Figma to Framework Theming Framework
 
-| Platform        | URL     |
-| --------------- | ------- |
-| React Storybook | PENDING |
-| Vue Storybook   | PENDING |
+| Platform        | URL                                                                                |
+| --------------- | ---------------------------------------------------------------------------------- |
+| React Storybook | [figma-to-framework-react.vercel.app](https://figma-to-framework-react.vercel.app) |
+| Vue Storybook   | [figma-to-framework-vue.vercel.app](https://figma-to-framework-vue.vercel.app)     |
 
 ## Demo
 
