@@ -7,6 +7,23 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+# other
+.DS_Store
+node_modules
+.turbo
+.idea
+*.log
+.next
+dist
+dist-ssr
+*.local
+.env
+.cache
+server/dist
+public/dist
+storybook-static/
+coverage/
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
