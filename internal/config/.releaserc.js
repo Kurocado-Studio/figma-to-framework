@@ -1,6 +1,2 @@
-import { semanticReleaseInternalConfig } from '@kurocado-studio/styleguide';
+export { semanticReleaseInternalMonorepoConfig as default } from '@kurocado-studio/styleguide';
 
-export default {
-  ...semanticReleaseInternalConfig,
-  extends: 'semantic-release-monorepo',
-};
